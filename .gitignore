@@ -1,0 +1,15 @@
+# Ignorar carpetas de compilación y archivos compilados
+bin/
+*.class
+
+# Ignorar logs y temporales
+*.log
+*.tmp
+
+# NO ignorar estos: son necesarios para que Eclipse importe el proyecto
+!.project
+!.classpath
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
